@@ -1,0 +1,31 @@
+name: Deploy Frontend to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # Run this workflow every time you push to the main branch
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest # Use a Linux runner on GitHub's servers
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18' # Use a stable version of Node.js
+
+      - name: Install dependencies
+        run: cd client && npm install # Navigate into client folder and install
+
+      - name: Build application
+        run: cd client && npm run build # Navigate into client folder and build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./client/dist # Specify the build output directory
