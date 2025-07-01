@@ -35,11 +35,11 @@ Install with:
 
 ```bash
 pip install -r requirements.txt
-
 requirements.txt:
 
 nginx
-
+Copy
+Edit
 Flask
 Flask-Cors
 torch
@@ -47,9 +47,10 @@ diffusers
 transformers
 accelerate
 safetensors
-
 🚀 Run the Flask Server
-
+bash
+Copy
+Edit
 cd python-server
 python app.py
 The server will start on http://localhost:5000
@@ -58,7 +59,8 @@ The server will start on http://localhost:5000
 POST /api/text-to-image
 
 json
-
+Copy
+Edit
 {
   "prompt": "a cyberpunk city at night with glowing lights"
 }
@@ -66,32 +68,32 @@ Returns: image/png (generated AI image)
 
 ⚙️ Frontend (React + Vite)
 📂 Frontend Directory: client/
-
 📦 Setup
-
+bash
+Copy
+Edit
 cd client
 npm install
-
 🚀 Run Locally
-
+bash
+Copy
+Edit
 npm run dev
 The frontend will start on http://localhost:5173
 
 Make sure the backend is also running at http://localhost:5000 or change the API URL in your React app.
 
 🌐 GitHub Pages Deployment
-
 Vite is configured to deploy to GitHub Pages with:
 
 js
-
+Copy
+Edit
 // vite.config.js
 export default defineConfig({
   base: '/ai-media-project/',
 });
-
 📦 Deployment via GitHub Actions
-
 .github/workflows/deploy.yml handles automatic CI/CD:
 
 Builds React app
@@ -102,7 +104,8 @@ Deploys to GitHub Pages
 
 🗂️ Project Structure
 csharp
-
+Copy
+Edit
 ai-media-project/
 ├── client/                   # Frontend (React + Vite)
 │   ├── public/
@@ -118,9 +121,7 @@ ai-media-project/
 │       └── deploy.yml
 │
 └── README.md
-
 🔐 Environment Notes
-
 Backend supports CPU by default, but will use GPU if available (torch.cuda.is_available()).
 
 Uses the Hugging Face model: runwayml/stable-diffusion-v1-5.
@@ -138,7 +139,8 @@ Port configuration: Flask runs on 5000, Vite runs on 5173.
 
 🚧 User account and project save
 
-🧑‍💻 Developed By Yash Dhanani
+🧑‍💻 Developed By
+Yash Dhanani
 
 🔗 GitHub
 
@@ -150,3 +152,9 @@ Port configuration: Flask runs on 5000, Vite runs on 5173.
 © 2025 Yash Dhanani. All Rights Reserved.
 
 This project is intended for learning, experimentation, and demo purposes only.
+
+yaml
+Copy
+Edit
+
+---
