@@ -5,7 +5,7 @@ import React, { useState, useCallback, useEffect, useRef } from 'react';
 import axios from 'axios';
 
 // --- Configuration ---
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://yashdhanani-ai-media-backend.hf.space';
 
 // --- Helper Components ---
 
