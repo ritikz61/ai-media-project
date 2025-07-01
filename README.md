@@ -153,8 +153,4 @@ Yash Dhanani
 
 This project is intended for learning, experimentation, and demo purposes only.
 
-yaml
-Copy
-Edit
-
 ---
