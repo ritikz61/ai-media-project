@@ -1,0 +1,7 @@
+Flask
+Flask-Cors
+torch
+diffusers
+transformers
+accelerate
+safetensors
